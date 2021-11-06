@@ -1,8 +1,8 @@
-import BarChart from "assets/components/dataChart/barChart";
-import DataTable from "assets/components/dataTable/dataTable";
-import DonutChart from "assets/components/donutChart/donutChart";
-import Footer from "assets/components/footer";
-import NavBar from "assets/components/navbar";
+import DataTable from "components/dataTable/dataTable";
+import DonutChart from "components/donutChart/donutChart";
+import Footer from "components/footer/footer";
+import BarChart from "components/dataChart/barChart";
+import NavBar from "components/navbar/navbar";
 
 const Dashboard = () => {
     return (
