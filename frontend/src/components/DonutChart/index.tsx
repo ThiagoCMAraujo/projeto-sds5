@@ -1,8 +1,8 @@
-import { BASE_URL } from 'utils/requests';
 import axios from 'axios';
+import { useEffect, useState } from 'react';
+import { BASE_URL } from 'utils/requests';
 import Chart from 'react-apexcharts';
 import { SaleSum } from 'types/sale';
-import { useEffect, useState } from 'react';
 
 type ChartData = {
     labels: string[];
