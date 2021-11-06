@@ -1,0 +1,13 @@
+
+postgres://
+
+
+kparhdeswgbcda
+:
+acf0a8d7eeecd66fe3d30aac10375356e25d1647a54f3769f6a359b418577bb1
+@
+ec2-3-226-205-10.compute-1.amazonaws.com
+:
+5432
+/
+d5f5b9avlktba
