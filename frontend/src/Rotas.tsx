@@ -1,5 +1,5 @@
-import Home from 'pages/Home/home';
-import Dashboard from 'pages/Dashboard/dashboard';
+import Home from 'pages/Home';
+import Dashboard from 'pages/Dashboard';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 const Rotas = () => {
     return (
