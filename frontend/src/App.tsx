@@ -1,4 +1,4 @@
-impo
+import Routes from 'Rotas';
 
 function App() {
   return (
