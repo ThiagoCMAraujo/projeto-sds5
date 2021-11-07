@@ -32,3 +32,11 @@ body {
 .text-primary {
     color: var(--color-primary) !important;
 }
+
+.center {
+    text-align: center;
+}
+
+.pull-left {
+    float: left;
+}
