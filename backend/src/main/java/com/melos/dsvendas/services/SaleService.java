@@ -2,10 +2,10 @@ package com.melos.dsvendas.services;
 
 import java.util.List;
 import com.melos.dsvendas.dto.SaleDTO;
-import com.melos.dsvendas.dto.SaleSuccessDTO;
-import com.melos.dsvendas.dto.SaleSumDTO;
 import com.melos.dsvendas.entities.Sale;
+import com.melos.dsvendas.dto.SaleSumDTO;
 import org.springframework.data.domain.Page;
+import com.melos.dsvendas.dto.SaleSuccessDTO;
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Pageable;
 import com.melos.dsvendas.repositories.SaleRepository;

@@ -2,7 +2,7 @@ import Routes from 'Rotas';
 
 function App() {
   return (
-<Routes />    
+    <Routes />
   );
 }
 
