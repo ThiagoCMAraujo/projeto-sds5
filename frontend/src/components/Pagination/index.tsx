@@ -8,11 +8,11 @@ type Props = {
 const Pagination = ( { page, onPageChange } : Props) => {
 
     return (
-        <div className="row center">
+        <div className="row d-flex justify-content-center">
             <nav>
                 <ul className="pagination">
                     <li className={`page-item ${page.first ? 'disabled' : ''}`}>
-                        <button className="page-link pull-left" onClick={() => onPageChange(page.number - 1)}>Anterior</button>
+                        <button className="page-link" onClick={() => onPageChange(page.number - 1)}>Anterior</button>
                     </li>
                     <li className="page-item disabled">
                         <span className="page-link">{page.number + 1}</span>
