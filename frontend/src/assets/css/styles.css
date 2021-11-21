@@ -33,7 +33,11 @@ body {
     color: var(--color-primary) !important;
 }
 
-.center {
+.center-b {
+    align-content: center;
+}
+
+.center-tex {
     text-align: center;
 }
 
